@@ -10,7 +10,7 @@ openai.api_key = 'TOKEN_OPENAI'
 telegram_token = 'TOKEN_TELEGRAM_BOT'
 
 # Lista de IDs de usuário autorizados (whitelist)
-authorized_user_ids = [1947192394]  # Adicione IDs de usuário permitidos aqui separados por virgula
+authorized_user_ids = [1002372394, 1233147394, 937292394]  # Adicione IDs de usuário permitidos aqui separados por virgula
 
 # Inicializar o bot
 bot = telebot.TeleBot(telegram_token)
