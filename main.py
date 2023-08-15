@@ -29,7 +29,7 @@ def start(message):
     else:
         bot.reply_to(
             message,
-            'Desculpe, você não tem permissão para acessar este bot.\n\nCompre seu acesso ao bot com a @aisaka_chan')
+            'Desculpe, você não tem permissão para acessar este bot.')
 
 # Responder às mensagens do usuário
 @bot.message_handler(func=lambda message: is_authorized_user(message.from_user.id))
